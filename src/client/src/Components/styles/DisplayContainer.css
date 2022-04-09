@@ -1,0 +1,10 @@
+.main-area{
+    margin-top: 5%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.row{
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.sub-title{
+    margin-top: 3%;
+}
+
+.guelph-majors{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.guelph-majors a{
+    margin-top: 3%;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 5%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: box-shadow 100ms ease-out 100ms;
+    transition: color 1s ease-in 50ms;
+    transition: background-color 1s ease-in 50ms;
+}
+
+.guelph-majors a:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: crimson;
+    color: white;
+}
+
+
+.waterloo-majors{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.waterloo-majors a{
+    margin-top: 3%;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 5%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: box-shadow 100ms ease-out 100ms;
+    transition: background-color 1s ease-in 50ms;
+}
+
+.waterloo-majors a:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: gold;
+}

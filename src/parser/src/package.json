@@ -1,0 +1,23 @@
+{
+  "name": "w22-cis3760-team09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.socs.uoguelph.ca/ajors/w22-cis3760-team09.git"
+  },
+  "keywords": [],
+  "author": "team09",
+  "license": "ISC",
+  "dependencies": {
+    "canopy": "^0.3.0",
+    "cli-progress": "^3.10.0",
+    "moo": "^0.5.1",
+    "nearley": "^2.20.1",
+    "playwright": "^1.17.2"
+  }
+}

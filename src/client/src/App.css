@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+.App {
+  text-align: center;
+}
+
+.font-sen{
+  font-family: 'Sen', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #F1F1F1;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbarToggle {
+  background-image: linear-gradient(#52BBDC, #80DCFA);
+}
+
+ul {
+  background-image: linear-gradient(#52BBDC, #80DCFA);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.UniSeachNavTitle {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.t9{
+  border: 1px solid black;
+  color: white;
+  background-color: #282c34;
+  border-radius: 15%;
+}
+
+.center-headers{
+  text-align: center;
+}
+
+ 
+
+/* li a:hover {
+
+} */
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

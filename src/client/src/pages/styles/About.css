@@ -1,0 +1,21 @@
+.about-container{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.about-title{
+    margin: 3rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .center{
+        margin-left: 30%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .center{
+        margin-left: 20%;
+    }
+  }

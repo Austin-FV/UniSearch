@@ -1,0 +1,20 @@
+.results-parent{
+    flex: 1;
+    margin: 0;
+    margin-bottom: 8rem;
+    flex-basis: 75%;
+}
+.results-container{
+    border: 1px solid #C8C7C7;
+    border-radius: 0;
+    padding: 1rem;
+    background-color: #f2f2f2;
+}
+
+.graph-container{
+    border: 1px solid #C8C7C7;
+    border-radius: 0;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    height: auto;
+}

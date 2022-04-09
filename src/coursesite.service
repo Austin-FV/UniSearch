@@ -1,0 +1,11 @@
+[Unit]
+Description=uWSGI instance to serve courseutility
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/greg/flask
+Environment="PATH=/opt/greg/env/bin"
+ExecStart=uwsgi --ini courseutility.ini
+
+[Install]
+WantedBy=multi-user.target

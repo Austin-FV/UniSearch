@@ -1,0 +1,44 @@
+.filter-container{
+    flex: 1;
+    flex-basis: 25%;
+}
+
+.filter-child{
+    margin-bottom: 1.6rem;
+    border: 1px solid #C8C7C7;
+    border-radius: 0;
+}
+.filter-child:last-child{
+    border: 0;
+}
+
+.searchButton{
+    background-color: #3FB3D8;
+    color: #fefefe;
+}
+.searchButton:hover{
+    background-color: #59bee0;
+    color: #fefefe;
+}
+.searchButton:focus{
+    outline: none;
+    box-shadow: none;
+}
+.searchButton:active{
+    background-color: #999;
+}
+
+.search-holder,
+.sorting-container,
+.guelph-or-waterloo-container,
+.semester-container{
+    padding: 5%;
+    background-color: #f2f2f2;
+}
+
+.sorting-container{
+    display:flex;
+}
+.sorting-container label{
+    flex:1;
+}
